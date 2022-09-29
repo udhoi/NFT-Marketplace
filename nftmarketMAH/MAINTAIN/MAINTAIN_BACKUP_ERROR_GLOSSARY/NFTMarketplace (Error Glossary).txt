@@ -1,0 +1,59 @@
+[ERR:1] Constructor: Max token supply needs to be greater than 0!
+[ERR:2] addTokens: Only owner can set the max token supply!
+[ERR:3] addTokens: New max token supply needs to be greater than previous Max Token Supply!
+[ERR:4] fetchTokenIDURI: Token ID does not exist!
+[ERR:5] mintNFT: MAHTKN Token has reached it's max supply limit!
+[ERR:6] You are not the owner of this Item!
+[ERR:7] You are not the owner of this Item!
+[ERR:8] unlistNFT: NFT is already not listed for sale!
+[ERR:9] sellNFT: Marketplace owners are not allowed to purchase marketplace NFT's!
+[ERR:10] sellNFT: NFT not listed for sale!
+[ERR:11] sellNFT: Please pay asking price!
+[ERR:12] transferNFT: You are not the owner of this Item!
+[ERR:13] transferNFT: You must take down marketplace listing before attempting to transfer!
+[ERR:14] transferNFT: Please pay the transfer fee!
+[ERR:15] bidWalletIN: Marketplace owner is not allowed to have a bid wallet!
+[ERR:16] bidWalletIN: Marketplace owner is not allowed to have a bid wallet!
+[ERR:17] bidWalletOUT: Marketplace owner is not allowd to withdraw for bid wallet!
+[ERR:18] bidWalletOUT: Withdraw amount is not what is sent
+[ERR:19] bidWalletOut: Wallet has lesser funds than asking withdraw amount!
+[ERR:20] bidPassCheck: User needs to add funds to marketplace to bid!
+[ERR:21] bidPassCheck: NFT owner is not allowed to bid!
+[ERR:22] soldBidNFT: NFT not listed for sale.
+[ERR:23] soldBidNFT: Please send exact NFT bid amount.
+[ERR:24] listNFT: Please pay listFee.
+[ERR:25] sellNFT: Please pay asking price!
+
+======================================== Openzeppelin Errors ==========================================
+
+[OZ:1] Address: insufficient balance
+[OZ:2] Address: unable to send value, recipient may have reverted
+[OZ:3] Address: low-level call failed
+[OZ:4] Address: low-level call with value failed
+[OZ:5] Address: insufficient balance for call
+[OZ:6] Address: call to non-contract
+[OZ:7] Address: low-level static call failed
+[OZ:8] Address: static call to non-contract
+[OZ:9] Address: low-level delegate call failed
+[OZ:10] Address: delegate call to non-contract
+[OZ:11] Strings: hex length insufficient
+[OZ:12] ERC721: address zero is not a valid owner
+[OZ:13] ERC721: invalid token ID
+[OZ:14] ERC721: approval to current owner
+[OZ:15] ERC721: approve caller is not token owner nor approved for all
+[OZ:16] ERC721: caller is not token owner nor approved
+[OZ:17] ERC721: caller is not token owner nor approved
+[OZ:18] ERC721: transfer to non ERC721Receiver implementer
+[OZ:19] ERC721: transfer to non ERC721Receiver implementer
+[OZ:20] ERC721: mint to the zero address
+[OZ:21] ERC721: token already minted
+[OZ:22] ERC721: transfer from incorrect owner
+[OZ:23] ERC721: transfer to the zero address
+[OZ:24] ERC721: approve to caller
+[OZ:25] ERC721: invalid token ID
+[OZ:26] ERC721: transfer to non ERC721Receiver implementer
+[OZ:27] Counter: decrement overflow
+[OZ:28] ReentrancyGuard: reentrant call
+[OZ:29] ERC721URIStorage: URI set of nonexistent token
+[OZ:30] Ownable: caller is not the owner
+[OZ:31] Ownable: new owner is the zero address
